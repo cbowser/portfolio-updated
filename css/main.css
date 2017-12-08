@@ -1,0 +1,72 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+ body, .first {background-image: url("/images/stripey3.svg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;}
+
+
+ .second {background-image: url(/images/blue23.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;}
+
+ .about {background-image: url(/images/yellow23.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;}
+
+ .contact {background-image: url(/images/green23.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;}
+
+
+ /*THE BORDER AROUND THE SUBTILE PAGE ONE*/
+ .subtitle {
+   border: solid 6px rgb(237,142,153);
+
+ }
+
+ @media screen and (max-width: 500px) {
+   .subtitle {
+     border:solid 0px rgb(237,142,153);
+   }
+ }
+
+ @media screen and (max-width:500px) {
+   video {height:400px;
+     width:370px;}
+
+ }
+
+ /*BOX-SHADOWS PAGE ONE*/
+ .shadow {
+ box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.20);
+ }
+
+
+ /*HEADER COLORS PAGE ONE*/
+ .header {color: rgb(206,101,119)}
+
+
+
+ /*PROJECT PAGE BACKGROUND AND HEADER COLORS*/
+ .assignment {
+   color:rgb(53, 146, 175);
+ }
+
+ .blue {
+   background-color:rgb(114, 185, 214);
+ }
+
+ /*CONTACT ME BACKGROUND AND HEADERS COLORS*/
+ .contactme { background-color: rgb(108, 195, 142);
+ }
+
+ /*ABOUT ME PAGE BACKGROUND AND HEADER COLORS*/
+ .aboutme { background-color: rgb(247,229,67);}
+
+ .aboutheader {color: rgb(207,192,56);}
