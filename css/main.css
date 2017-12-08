@@ -42,6 +42,11 @@
 
  }
 
+@media screen and (max-width:500px) {
+  .smalllogo {visibility: hidden;}
+
+}
+
  /*BOX-SHADOWS PAGE ONE*/
  .shadow {
  box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.20);
